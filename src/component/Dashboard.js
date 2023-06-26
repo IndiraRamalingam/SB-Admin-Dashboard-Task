@@ -1,5 +1,5 @@
 import React from 'react'
-
+import UndrawPost from '../Assests/Images/undraw_posting_photo.svg'
 
 function Dashboard() {
   return (
@@ -305,7 +305,7 @@ function Dashboard() {
                                 <div className="card-body">
                                     <div className="text-center">
                                         <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 25+ 'rem'}}
-                                            src="img/undraw_posting_photo.svg" alt="..."/>
+                                            src={UndrawPost} alt="..."/>
                                     </div>
                                     <p>Add some quality, svg illustrations to your project courtesy of <a
                                             target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a
